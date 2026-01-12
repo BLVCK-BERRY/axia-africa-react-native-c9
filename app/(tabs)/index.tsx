@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { useState } from "react";
 import { Text, TextInput, View } from "react-native";
 export default function HomeScreen() {
