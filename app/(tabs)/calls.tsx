@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from "react-native";
-export default function Chats() {
+export default function Calls() {
   return (
     <View style={styles.container}>
-      <Text style={styles.textElement}>Home</Text>
+      <Text style={styles.textElement}>Calls Screen</Text>
     </View>
   );
 }

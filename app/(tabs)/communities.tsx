@@ -1,12 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
-export default function Chats() {
+import { Text, View, StyleSheet } from "react-native";
+export default function Communities() {
   return (
     <View style={styles.container}>
-      <Text style={styles.textElement}>Home</Text>
+      <Text style={styles.textElement}>Communities Screen</Text>
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "white",
