@@ -17,6 +17,12 @@ const Layout = () => {
       <Drawer.Screen
         name='index'
         options={{
+          title: "Manual",
+        }}
+      />
+      <Drawer.Screen
+        name='react-hook-form'
+        options={{
           title: "React Hook Form",
         }}
       />
